@@ -1,0 +1,26 @@
+title: GitHub 登录
+description: 允许玩家使用 GitHub 账号登录皮肤站，并与社区共用同一个身份
+config-title: GitHub 登录设置
+client-id: Client ID
+client-id-hint: GitHub → Settings → Developer settings → OAuth Apps → 你的应用 → Client ID
+client-secret: Client Secret
+client-secret-hint: 同一个页面的 Client secrets，生成后只显示一次，请妥善保管
+callback-url: 回调地址（可选）
+callback-url-hint: 留空则自动使用下方显示的地址；如果站点经过 CDN 或反向代理、自动生成的地址不对，就在这里手动填写 GitHub 后台登记的那个地址
+verify-ssl: 校验 HTTPS 证书
+verify-ssl-hint: 如果服务器无法验证 GitHub 接口的证书，可以关闭（不推荐）
+callback: 回调地址
+callback-hint: 请把下面这个地址原样填写到 GitHub OAuth App 的「Authorization callback URL」中，必须完全一致
+permission-hint: 只需要 read:user 权限。社区论坛的 GitHub 插件用的是同一个数字用户 ID，因此这里派生出的邮箱与社区完全一致。
+button: 使用 GitHub 登录
+button-title: 使用 GitHub 账号登录
+not-configured: GitHub 登录尚未配置，请联系管理员
+state-failed: 登录状态校验失败，请重新登录
+oauth-error: GitHub 返回错误：%message%
+no-code: GitHub 没有返回授权码
+http-failed: 请求 GitHub 接口失败：%message%
+email-taken: 该 GitHub 账号关联的皮肤站账号已被占用，请联系管理员
+profile-title: 第三方账号
+profile-body: 本站账号通过第三方账号登录，没有独立密码，因此这里不能修改任何内容。
+profile-footnote: 昵称和头像可以直接在本页修改；如需删除本站账号，请联系管理员。
+profile-managed: 该账号通过 GitHub 登录，邮箱和密码由系统管理，无法在此修改。

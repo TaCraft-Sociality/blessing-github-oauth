@@ -1,0 +1,21 @@
+{
+  "name": "blessing-github-oauth",
+  "title": "Tacraft\\TcsGithubLogin::general.title",
+  "version": "1.0.0",
+  "description": "Tacraft\\TcsGithubLogin::general.description",
+  "author": "TCS",
+  "url": "https://github.com/tacraft-sociality",
+  "namespace": "Tacraft\\TcsGithubLogin",
+  "require": {
+    "blessing-skin-server": "*",
+    "blessing-oauth-core": "*"
+  },
+  "enchants": {
+    "config": "Configuration",
+    "icon": {
+      "bg": "info",
+      "fa": "github",
+      "faType": "fab"
+    }
+  }
+}

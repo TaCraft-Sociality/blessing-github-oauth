@@ -1,0 +1,26 @@
+title: GitHub login
+description: Let players sign in with a GitHub account, sharing one identity with the community
+config-title: GitHub login settings
+client-id: Client ID
+client-id-hint: GitHub → Settings → Developer settings → OAuth Apps → your app → Client ID
+client-secret: Client Secret
+client-secret-hint: Client secrets on the same page. The value is shown once, keep it safe.
+callback-url: Authorization callback URL (optional)
+callback-url-hint: Leave empty to use the address below. Set it manually when the site sits behind a CDN or reverse proxy and the generated address is wrong.
+verify-ssl: Verify HTTPS certificates
+verify-ssl-hint: Disable only when the server cannot validate GitHub certificates (not recommended).
+callback: Authorization callback URL
+callback-hint: Copy this address into the Authorization callback URL of the GitHub OAuth App; it must match exactly.
+permission-hint: Only read:user is requested. The forum plugin uses the same numeric GitHub user id, so the derived address is identical on both sites.
+button: Sign in with GitHub
+button-title: Sign in with a GitHub account
+not-configured: GitHub login is not configured yet, please contact the administrator
+state-failed: Login state verification failed, please try again
+oauth-error: GitHub returned an error: %message%
+no-code: GitHub did not return an authorization code
+http-failed: Request to GitHub failed: %message%
+email-taken: This GitHub account is already linked to an occupied account, please contact the administrator
+profile-title: Third-party account
+profile-body: This account signs in through a third-party provider. It has no password of its own, so nothing can be changed here.
+profile-footnote: You can still edit your nickname and avatar on this page. To delete your account, please contact an administrator.
+profile-managed: This account signs in with GitHub; its email and password are managed by the system and cannot be changed here.

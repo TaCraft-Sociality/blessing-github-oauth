@@ -1,0 +1,23 @@
+{% extends 'admin.base' %}
+
+{% block title %}{{ trans('Tacraft\\TcsGithubLogin::general.config-title') }}{% endblock %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-md-6">
+      {{ form|raw }}
+    </div>
+    <div class="col-md-6">
+      <div class="card card-info">
+        <div class="card-header">
+          <h3 class="card-title">{{ trans('Tacraft\\TcsGithubLogin::general.callback') }}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{ trans('Tacraft\\TcsGithubLogin::general.callback-hint') }}</p>
+          <p><code>{{ callback }}</code></p>
+          <p class="text-muted">{{ trans('Tacraft\\TcsGithubLogin::general.permission-hint') }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
